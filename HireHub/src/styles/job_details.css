@@ -1,0 +1,198 @@
+:root {
+    --accent-blue: #5041dc;
+}
+
+body {
+    font-family:Tahoma, sans-serif;
+    font-weight: lighter;
+    background-color: #ffffff;
+    color: #00152e;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    display: revert;
+    width: 100%;
+}
+
+h3 {
+    font-size: 34px;
+    font-family: "Cascadia Code", sans-serif;
+    background-color: transparent;
+}
+
+form {
+    align-self: center;
+    background-color: #ffffff;
+    margin: 0;
+    display: grid;
+
+}
+
+
+input[type="submit"] {
+    background-color: var(--accent-blue);
+    color: #fff;
+    padding: 15px;
+    padding-inline: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 22px;
+    width: 20vw;
+    font-family: "Cascadia Code", sans-serif;
+    margin: 60px 10px 20px 10px;
+    align-self: end;
+    position: relative;
+    right: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+#forward {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #6e6d6d;
+    margin-top: 10px;
+}
+
+#forward a {
+    margin-left: 10px;
+    color: var(--accent-blue);
+}
+
+.job-details-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.cover-container {
+    align-items: center;
+    flex: 0 0 46%;
+    justify-content: center;
+    align-content: center;
+    display: inline;
+    flex-direction: column;
+
+}
+
+.cover-container img {
+    flex: 1;
+    align-self: end;
+    margin-inline: 20px;
+    border-radius: 1vw;
+    max-width: 50vw;
+}
+
+.info-container {
+    margin-left: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    overflow: hidden;
+
+    align-self: start;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    box-sizing: border-box;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+#extra-space {
+    height: 30px;
+}
+
+button {
+    color: white;
+    background-color:  var(--accent-blue);
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#notion {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+#delete-btn {
+    color: white;
+    background-color:  black;
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 20px;
+}
+
+#delete-btn:hover {
+    cursor: pointer;
+    background-color: var(--accent-red);
+    font-weight: bold;
+}
+
+#edit-btn {
+    color: white;
+    background-color:  var(--accent-blue);
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 7px;
+    padding-inline: 10px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+
+#edit-btn:hover {
+    background: var(--accent-light);
+    font-weight: bold;
+
+}
+
+
+#back {
+    color: var(--accent-blue);
+    font-size: 20px;
+    background: white;
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+#back:hover {
+    font-weight: bold;
+    background: radial-gradient(circle,
+    hsl(314, 94%, 61%) 27%,
+    hsla(271, 71%, 68%, 1) 59%,
+    hsla(260, 77%, 59%, 1) 84%,
+    #5041dc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+

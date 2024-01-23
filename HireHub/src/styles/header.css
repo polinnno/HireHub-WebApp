@@ -1,0 +1,85 @@
+:root {
+    --accent-blue: #5041dc;
+    --accent-red: #ff0000;
+    --accent-pink: #f14a5d;
+    --accent-light: hsl(312, 100%, 76%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: relative;
+    font-family: "Cascadia Code", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-info {
+    background: radial-gradient(circle,
+    hsla(314, 48%, 63%, 1) 27%,
+    hsla(271, 71%, 68%, 1) 49%,
+    hsla(260, 77%, 59%, 1) 64%,
+    hsla(0, 0%, 0%, 1) 100%);
+
+    position: relative;
+    text-align: center;
+    min-height: fit-content;
+    height: 4vw;
+    display: flex;
+    padding-inline: 60px;
+    align-items: center;
+}
+
+.company-info h1 {
+    margin: 0;
+    font-size: 3vw;
+    color: white;
+    padding: 15px;
+    padding-inline: 20px;
+    font-family: "Cascadia Code", sans-serif;
+
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    background: radial-gradient(circle,
+    hsl(314, 94%, 61%) 27%,
+    hsla(271, 71%, 68%, 1) 59%,
+    hsla(260, 77%, 59%, 1) 84%,
+    #5041dc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+

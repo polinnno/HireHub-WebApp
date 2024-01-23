@@ -1,0 +1,87 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+.footer-links a {
+    margin: 20px 0 10px 70px;
+    color: black;
+    text-decoration: underline;
+    display: flex;
+    width: fit-content;
+}
+
+.footer-links a:hover {
+    color: var(--accent-pink);
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.slogan p {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 30px 50px 30px;
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+}
+
+.footer-links,
+.contact-info,
+.slogan {
+    flex: 1;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    right: 0;
+
+
+}
+
+
+/* Style the slogan */
+.slogan p {
+    font-style: italic;
+    justify-content: center;
+}
+
+.copyright {
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+
+#back {
+    display: flow;
+    position: relative;
+
+    color: var(--accent-blue);
+    background: white;
+    margin: 40px 0 20px 20px;
+}
+
+#back:hover {
+    text-decoration: underline;
+
+    font-weight: bolder;
+    background: radial-gradient(circle,
+    hsl(314, 94%, 61%) 17%,
+    hsla(271, 71%, 68%, 1) 69%,
+    hsla(260, 77%, 59%, 1) 84%,
+    #5041dc 100%);
+    width: fit-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

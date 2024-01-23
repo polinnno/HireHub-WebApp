@@ -1,0 +1,334 @@
+body {
+    background: white;
+}
+
+h2 {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    font-family: "Cascadia Code", sans-serif;
+    font-size: 36px;
+    padding: 0;
+    margin: 20px 0 40px 0;
+}
+
+#tit {
+    text-align: start;
+    background-color: transparent;
+    color: black;
+    font-family: "Cascadia Code", sans-serif;
+    font-size: 40px;
+    padding: 0;
+    margin: 50px 0 10px 0;
+}
+
+
+.job-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px 20px;
+}
+
+.job-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.job-card {
+    background-color: white;
+    margin: 10px;
+    width: 30%;
+    box-sizing: border-box;
+    border: solid 1px #f5dede;
+
+}
+
+.job-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.job-card a {
+    color: white;
+    background-color:  var(--accent-blue);
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.cover-container {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.info-container{
+    margin: 15px;
+    margin-bottom: 25px;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+
+.heart-icon {
+    cursor: pointer;
+    display: inline-block;
+    right: 0;
+    top: 0;
+    margin-left: 70%;
+    position: relative;
+    z-index: 111;
+}
+
+.heart {
+    font-size: 1.8rem;
+    color: #ccc;
+}
+
+.heart.filled {
+    color: red;
+    font-weight: bolder;
+}
+
+h3 a {
+    color: black !important;
+    background-color: transparent !important;
+}
+
+#main-info {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 60px;
+
+}
+
+#pp-container {
+    margin-right: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 2vw;
+
+    align-self: start;
+}
+
+#pp {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    box-sizing: border-box;
+}
+
+.user-info {
+    flex: 1;
+    align-self: end;
+    max-width: fit-content;
+    padding-inline: 200px;
+}
+
+#back {
+    display: flow;
+    position: relative;
+
+    margin: 40px 0 20px 20px;
+}
+
+#back:hover {
+    text-decoration: underline;
+
+    font-weight: bolder;
+    background: radial-gradient(circle,
+    hsl(314, 94%, 61%) 17%,
+    hsla(271, 71%, 68%, 1) 69%,
+    hsla(260, 77%, 59%, 1) 84%,
+    #5041dc 100%);
+    width: fit-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+#favs-tit {
+    display: flow;
+    position: relative;
+    text-align: start;
+    background-color: transparent;
+    color: black;
+    font-family: "Cascadia Code", sans-serif;
+    font-size: 40px;
+    padding: 0;
+    margin: 50px 0 0 20px;
+}
+
+#favorites-link {
+    margin-top: 10px;
+    color: var(--accent-blue);
+    font-size: 20px;
+}
+
+#favorites-link:hover {
+    font-weight: bolder;
+    background: radial-gradient(circle,
+    hsl(314, 94%, 61%) 27%,
+    hsla(271, 71%, 68%, 1) 59%,
+    hsla(260, 77%, 59%, 1) 84%,
+    #5041dc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Make text transparent to show the background gradient */
+}
+
+.contacts-container {
+    padding: 3px 40px 30px 40px;
+    background-color: #b8c6ff;
+    margin: 50px 0 70px 0;
+    display: flow;
+
+}
+
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-card {
+    padding-inline: 30px !important;
+    border: solid 1px var(--accent-blue);
+    padding: 15px;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border-radius: 2vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    min-width: fit-content;
+    color: #292929;
+
+}
+
+.contact-card p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.logout-container button {
+    color: white;
+    background-color:  black;
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.logout-container button:hover {
+    cursor: pointer;
+    background-color: var(--accent-red);
+}
+
+#delete-btn {
+    color: white;
+    background-color:  black;
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 7px;
+}
+
+#delete-btn:hover {
+    cursor: pointer;
+    background-color: var(--accent-red);
+}
+
+
+#edit-btn:hover {
+    background: var(--accent-light)
+}
+
+.contact-use-notification {
+    font-size: 16px;
+    color: var(--accent-blue);
+    font-style: italic;
+    font-stretch: ultra-condensed;
+}
+
+.trash-icon {
+    font-size: 30px;
+    font-weight: bold;
+    align-self: end;
+}
+
+.trash-icon:hover {
+    cursor: pointer;
+    color: var(--accent-red);
+}
+
+#add-position-btn {
+    background: white;
+    font-weight: bolder;
+
+    color: black;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 2vw;
+    padding: 10px;
+    padding-inline: 20px;
+    text-decoration: none;
+    display: flow;
+    width: 150px;
+    text-align: center;
+    margin: 0 0 20px 50px;
+}
+
+#add-position-btn:hover {
+    cursor: pointer;
+    background: radial-gradient(circle,
+    hsla(314, 94%, 61%, 0.5) 27%,
+    hsla(271, 71%, 68%, 0.5) 59%,
+    hsla(260, 77%, 59%, 0.5) 84%,
+    #5041dc 100%);
+}
+
+#add-contact-btn {
+    padding: 50px 0 30px 0;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+
+}
+
+#plus {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+
+#add-contact-btn:hover {
+    cursor: pointer;
+
+    background: radial-gradient(circle,
+    hsla(314, 94%, 61%, 0.23) 27%,
+    rgba(80, 65, 220, 0.42) 100%);
+    transition: 3s;
+}

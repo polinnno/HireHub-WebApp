@@ -1,0 +1,165 @@
+:root {
+    --accent-blue: #5041dc;
+    --accent-red: #ff0000;
+    --accent-pink: #f14a5d;
+}
+
+body {
+    font-family:Tahoma, sans-serif;
+    font-weight: lighter;
+    background-color: #ffffff;
+    color: #00152e;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    width: 100%;
+}
+
+h1 {
+    padding: 6vw 0 0 1vw;
+    margin: 0 0 0 15vw;
+    bottom: 0;
+    font-size: 75px;
+    width: fit-content;
+    border-left: 1px solid var(--accent-blue);
+    color: var(--accent-blue);
+}
+
+h2 {
+    margin: 3vw 0 0 0;
+    border-bottom: 1px solid var(--accent-blue);
+
+    bottom: 0;
+
+    width: fit-content;
+    color: var(--accent-blue);
+    font-size: 35px;
+    padding: 0 0 0 20px;
+    font-weight: bold;
+
+}
+
+form {
+    align-self: center;
+    background-color: #ffffff;
+    margin: 0;
+    display: grid;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+.form-container{
+    display: grid;
+    width: 70vw;
+    border-top: 1px solid var(--accent-blue);
+    border-left: 1px solid var(--accent-blue);
+    padding-bottom: 4vw;
+    top: 0;
+    margin: 0 0 0 15vw;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: var(--accent-blue);
+    font-style: italic;
+}
+
+input {
+    width: 100%;
+    padding: 8px 8px 0px 8px;
+    box-sizing: border-box;
+    border: none;
+    min-width: 12vw;
+    font-family: "Cascadia Code", sans-serif;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background-color: var(--accent-blue);
+    color: #fff;
+    padding: 15px;
+    padding-inline: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 22px;
+    width: 20vw;
+    font-family: "Cascadia Code", sans-serif;
+    margin: 90px 10px 20px 10px;
+    align-self: end;
+    position: relative;
+    right: 0;
+}
+
+input[type="submit"]:hover {
+    background: radial-gradient(circle,
+    hsla(314, 48%, 63%, 1) 27%,
+    hsla(271, 71%, 68%, 1) 59%,
+    hsla(260, 77%, 59%, 1) 84%,
+    #5041dc 100%);
+}
+
+#forward {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #6e6d6d;
+    margin-top: 80px;
+}
+
+#forward a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--accent-blue);
+}
+
+label {
+    align-self: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-right: 20px;
+    min-width: fit-content;
+}
+
+.single-line-input {
+    display: inline-flex;
+    flex-wrap: unset;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: end;
+    border-bottom: 1px solid var(--accent-blue);
+    width: 20vw;
+    padding: 20px 40px 0 20px;
+}
+
+
+#login-link {
+    position: absolute;
+    top: 10px;
+    right: 15vw;
+
+    margin-bottom: 5vw;
+    font-weight: lighter;
+    color: #6e6d6d;
+}
+
+#contact-number {
+    min-width: 30vw;
+    margin-top: 0;
+    top: 0;
+}
+
+.error {
+    color: #e62121;
+    font-size: 16px;
+    font-family: "Cascadia Code", sans-serif;
+    font-weight: bolder;
+    margin-left: 10px;
+
+}

@@ -1,0 +1,148 @@
+:root {
+    --accent-blue: #5041dc;
+}
+
+body {
+    font-family:Tahoma, sans-serif;
+    font-weight: lighter;
+    background-color: #ffffff;
+    color: #00152e;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    display: revert;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: "Cascadia Code", sans-serif;
+    background-color: transparent;
+    text-align: center;
+}
+
+form {
+    align-self: center;
+    background-color: #ffffff;
+    margin: 0;
+    display: grid;
+
+}
+
+
+input[type="submit"] {
+    background-color: var(--accent-blue);
+    color: #fff;
+    padding: 15px;
+    padding-inline: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 22px;
+    width: 20vw;
+    font-family: "Cascadia Code", sans-serif;
+    margin: 60px 10px 20px 10px;
+    align-self: end;
+    position: relative;
+    right: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+
+.info-container {
+    margin-left: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    overflow: hidden;
+
+    align-self: start;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    box-sizing: border-box;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+#extra-space {
+    height: 30px;
+}
+
+button {
+    color: white;
+    background-color:  var(--accent-blue);
+    border: none;
+    font-family: "Cascadia Code", sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#notion {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+}
+
+#applicants-table-container {
+    display: grid;
+    align-self: center;
+    align-content: center;
+    font-family: "Cascadia Code", sans-serif;
+    padding: 40px 50px 50px 50px;
+}
+
+th {
+    color: var(--accent-pink);
+    font-size: 22px;
+    padding-bottom: 20px;
+
+}
+
+td {
+    text-align: center;
+    padding-top: 15px;
+}
+
+input[type="datetime-local"] {
+    font-family: "Cascadia Code", sans-serif;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    font-family: "Cascadia Code", sans-serif;
+
+    padding: 10px 30px 10px 30px;
+    color: black;
+    border-radius: 4vw;
+    border: solid 2px black;
+
+}
+
+#search-container {
+    margin-left: 50px;
+    }
+
+#search-container label{
+    font-family: "Cascadia Code", sans-serif;
+    font-weight: bolder;
+    padding-inline: 10px;
+}
